@@ -1,8 +1,16 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import Navigation from "./components/Navigation";
+import Views from "./views/Views";
 
 function App() {
-  return <div className="App">fdgdfgdfg</div>;
+  return (
+    <div className="App">
+      <Navigation />
+      <Views />
+    </div>
+  );
 }
 
 export default App;
